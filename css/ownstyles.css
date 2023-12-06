@@ -1,0 +1,93 @@
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/02/98/36/33/360_F_298363329_or4WmbHHNa6mLHKgg5olz5AyaOaCThV7.jpg);
+    background-size:cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #555555;
+}
+
+.common{
+    position: absolute;
+}
+
+.header{
+    top: 0px;
+    left: 2px;
+    right: 2px;
+    height: 120px;
+    z-index: 2;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmgtrzLjXOuVzyf_eAoTtzFDkzm6BJBkuVGw&usqp=CAU);
+    background-size: contain;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.picturehead{
+    float: left;
+}
+
+.subheader{
+    float: right;
+    font-size: 15px;
+}
+
+.leftmain{
+    padding-top: 10px;
+    padding-left: 15px;
+    top: 135px;
+    left: 10px;
+    width: 575px;
+    bottom: 60px;
+    z-index: 1;
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+}
+
+.leftsub{
+    padding-top: 10px;
+    top: 140px;
+    left: 400px;
+    width: 125px;
+    bottom: 60px;
+    z-index: 2;
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+}
+
+.rightmain{
+    padding-top: 10px;
+    padding-left: 10px;
+    top: 135px;
+    right: 10px;
+    width: 880px;
+    bottom: 60px;
+    z-index: 1;
+    background-color:#ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555555;
+}
+
+.graph{
+    padding-left: 15px;
+    top: 660px;
+    left: 345px;
+    width: 850px;
+    bottom: 60px;
+    z-index: 1;
+    text-align: center;
+}
+
+.footer{
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+    background-color:#ffffff;
+    z-index: 2;
+}
